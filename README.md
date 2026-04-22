@@ -25,6 +25,7 @@ Correlation analysis was conducted to understand relationships between variables
 
 
 
+
 Correlation analysis revealed that:
 - **Game complexity (`average_weight`)** has the strongest positive relationship with ratings  
 - **User engagement metrics** show moderate correlation  
@@ -35,29 +36,29 @@ Correlation analysis revealed that:
 A **Linear Regression model** was used as a baseline due to its interpretability.
 
 **Performance:**
-- R² Score: **0.30**  
-- Mean Squared Error: **5.79**
+- R² Score: 0.30
+- Mean Squared Error: 5.79
 
 
 ## Key Insights  
-- Players tend to favour **strategically complex games** over simpler ones  
-- **Popularity does not strongly determine quality**, as engagement metrics show only moderate influence  
-- Structural features like **playtime and player count have negligible impact** on ratings  
-- A significant portion of rating variability is driven by **subjective factors**
+- Players tend to favour strategically complex games over simpler ones  
+- Popularity does not strongly determine quality, as engagement metrics show only moderate influence  
+- Structural features like playtime and player count have negligible impact on ratings  
+- A significant portion of rating variability is driven by **subjective factors
 
 
 ## Limitations  
 - The model explains only ~30% of rating variance  
-- Important qualitative aspects (e.g., theme, design, player experience) are not captured  
+- Important qualitative aspects (theme, design, player experience) are not captured  
 - Linear regression may not capture non-linear relationships  
 
 
 ## Future Work  
-- Incorporate **text analysis of user reviews**  
-- Experiment with **non-linear models** (e.g., Random Forest, XGBoost)  
+- Incorporate text analysis of user reviews
+- Experiment with non-linear models (Random Forest, XGBoost)  
 - Include richer gameplay and design-related features  
 
 
 
 ## Conclusion  
-The findings suggest that players prioritise **depth and complexity** over structural attributes such as duration or player count, while engagement metrics reflect popularity rather than intrinsic quality. This highlights the importance of subjective experience in shaping user ratings.
+The findings suggest that players prioritise depth and complexity over structural attributes such as duration or player count, while engagement metrics reflect popularity rather than intrinsic quality. This highlights the importance of subjective experience in shaping user ratings.
