@@ -19,6 +19,12 @@ The dataset contains over **81,000 board games**, including features such as:
 
 
 ## Exploratory Analysis  
+Correlation analysis was conducted to understand relationships between variables.
+
+<img width="767" height="540" alt="Screenshot 2026-04-22 at 7 51 55 PM" src="https://github.com/user-attachments/assets/1cfd717c-95d0-45ba-b65a-cf92fc5c8802" />
+
+
+
 Correlation analysis revealed that:
 - **Game complexity (`average_weight`)** has the strongest positive relationship with ratings  
 - **User engagement metrics** show moderate correlation  
@@ -27,8 +33,6 @@ Correlation analysis revealed that:
 
 ## Model  
 A **Linear Regression model** was used as a baseline due to its interpretability.
-
-<img width="767" height="540" alt="Screenshot 2026-04-22 at 7 51 55 PM" src="https://github.com/user-attachments/assets/1cfd717c-95d0-45ba-b65a-cf92fc5c8802" />
 
 **Performance:**
 - R² Score: **0.30**  
