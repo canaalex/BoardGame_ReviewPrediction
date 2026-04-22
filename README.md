@@ -1,11 +1,11 @@
 # Board Game Rating Analysis
 
 ## Overview  
-This project investigates the factors influencing board game ratings using a regression-based approach. The objective is to understand whether structural game attributes (such as playtime and player count) or user engagement metrics (such as ownership and wishlist counts) better explain variations in ratings.
+This project investigates the factors influencing board game ratings using a regression based approach. The objective is to understand whether structural game attributes (such as playtime and player count) or user engagement metrics (such as ownership and wishlist counts) better explain variations in ratings.
 
 
 ## Dataset  
-The dataset contains over **81,000 board games**, including features such as:
+The dataset contains over 81,000 board games, including features such as:
 - Game characteristics (playtime, complexity, number of players)  
 - User engagement metrics (owners, wishlists, comments)  
 - Rating-related variables  
@@ -27,13 +27,13 @@ Correlation analysis was conducted to understand relationships between variables
 
 
 Correlation analysis revealed that:
-- **Game complexity (`average_weight`)** has the strongest positive relationship with ratings  
-- **User engagement metrics** show moderate correlation  
-- **Playtime and player count** have minimal influence  
+- Game complexity (`average_weight`) has the strongest positive relationship with ratings  
+- User engagement metrics show moderate correlation  
+- Playtime and player count have minimal influence  
 
 
 ## Model  
-A **Linear Regression model** was used as a baseline due to its interpretability.
+A Linear Regression model was used as a baseline due to its interpretability.
 
 **Performance:**
 - R² Score: 0.30
@@ -44,7 +44,7 @@ A **Linear Regression model** was used as a baseline due to its interpretability
 - Players tend to favour strategically complex games over simpler ones  
 - Popularity does not strongly determine quality, as engagement metrics show only moderate influence  
 - Structural features like playtime and player count have negligible impact on ratings  
-- A significant portion of rating variability is driven by **subjective factors
+- A significant portion of rating variability is driven by subjective factors
 
 
 ## Limitations  
